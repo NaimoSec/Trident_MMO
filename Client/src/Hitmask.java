@@ -1,0 +1,62 @@
+
+
+/**
+ * Represents a Hit mask type/color.
+ * @author Gabbe
+ */
+
+public enum Hitmask {
+	
+	/*
+	 * A normal red hitmask.
+	 */
+	RED,
+
+	/*
+	 * An orange-like hitmask, representing a high-hit.
+	 */
+	CRITICAL,
+	
+	/*
+	 * A green hitmask representing a poison hit
+	 */
+	RED2,
+	
+	/*
+	 * A light-yellow hitmask
+	 */
+	LIGHT_YELLOW,
+	
+	/*
+	 * A dark purple hitmask
+	 */
+	DARK_PURPLE,
+	
+	/*
+	 * A dark red hitmask
+	 */
+	DARK_RED,
+	
+	/*
+	 * A dark crit hitmask
+	 */
+	DARK_CRIT,
+	
+	/*
+	 * A green hitmask representing poison
+	 */
+	DARK_GREEN,
+
+	/*
+	 * No hitmask
+	 */
+	NONE;
+	
+	public static Hitmask forId(int id) {
+		for(Hitmask hitmask : Hitmask.values()) {
+			if(hitmask.ordinal() == id)
+				return hitmask;
+		}
+		return null;
+	}
+}

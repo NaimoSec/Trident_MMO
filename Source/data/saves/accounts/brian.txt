@@ -1,0 +1,268 @@
+[ACCOUNT]
+character-username = Brian
+character-password = brian
+email-adress = n
+last-IP = 71.224.125.200
+last-CPU = -1541983893
+
+[CHARACTER]
+difficulty = 1
+positionX = 3094
+positionY = 3492
+positionZ = 0
+rights = 3
+title = 0
+running = true
+run-energy = 100
+got-starter =true
+finished-tut-0 = false
+finished-tut-1 = false
+finished-tut-2 = false
+finished-tut-3 = false
+finished-tut-4 = false
+finished-tut-5 = true
+experience-locked = false
+spell-book = 0
+prayer-book = 0
+dung-tokens = 0
+achievement-points = 1
+conquest-points = 0
+loyalty-points = 1400
+commendations = 0
+donator-points =0
+slayer-points = 0
+player-killing-points = 0
+zeals = 0
+wildy-kills = 0
+wildy-deaths = 0
+arena-victories = 0
+arena-losses = 0
+
+[COMBAT]
+weapon-attack-style = 0
+special-attack-energy = 10.0
+auto-retaliating = false
+dfs-charges = 0
+last-veng = 0
+last-aid = 0
+target-percentage = 39
+target-percentage-timer = 1483749166782
+entered-gwd-boss = false
+gwd-altar-timer = 0
+gwd-killcount-0 = 0
+gwd-killcount-1 = 0
+gwd-killcount-2 = 0
+gwd-killcount-3 = 0
+poison = 0
+killed-players = 	
+
+[APPEARANCE]
+character-look = 0	0
+character-look = 1	0
+character-look = 2	18
+character-look = 3	26
+character-look = 4	9
+character-look = 5	36
+character-look = 6	43
+character-look = 7	10
+character-look = 8	0
+character-look = 9	0
+character-look = 10	0
+character-look = 11	0
+character-look = 12	0
+
+[MONEY POUCH]
+money-in-pouch = 0
+
+[INVENTORY]
+character-item = 0	19707	1
+character-item = 1	20000	1
+character-item = 2	20002	1
+character-item = 3	19709	1
+character-item = 4	20155	1
+character-item = 5	20151	1
+character-item = 6	20147	1
+character-item = 7	4151	1
+character-item = 8	4151	1
+
+[EQUIPMENT]
+character-equip = 0	-1	0	
+character-equip = 1	-1	0	
+character-equip = 2	-1	0	
+character-equip = 3	-1	0	
+character-equip = 4	-1	0	
+character-equip = 5	-1	0	
+character-equip = 6	-1	0	
+character-equip = 7	-1	0	
+character-equip = 8	-1	0	
+character-equip = 9	-1	0	
+character-equip = 10	-1	0	
+character-equip = 11	-1	0	
+character-equip = 12	-1	0	
+character-equip = 13	-1	0	
+
+[BANK]
+invalid-pin-attempts = 0
+last-pin-attempt = 0
+has-pin = false
+
+[STORED]
+
+[STATS]
+character-skill = 0	99	99	13034431
+character-skill = 1	99	99	13034431
+character-skill = 2	99	99	13034431
+character-skill = 3	990	990	13034431
+character-skill = 4	99	99	13034431
+character-skill = 5	990	990	13034431
+character-skill = 6	99	99	13034431
+character-skill = 7	99	99	13034431
+character-skill = 8	99	99	13034431
+character-skill = 9	99	99	13034431
+character-skill = 10	99	99	13034431
+character-skill = 11	99	99	13034431
+character-skill = 12	99	99	13034431
+character-skill = 13	99	99	13034431
+character-skill = 14	99	99	13034431
+character-skill = 15	99	99	13034431
+character-skill = 16	99	99	13034431
+character-skill = 17	99	99	13034431
+character-skill = 18	99	99	13034431
+character-skill = 19	99	99	13034431
+character-skill = 20	99	99	13034431
+character-skill = 21	99	99	13034431
+character-skill = 22	99	99	13034431
+character-skill = 23	99	99	13034431
+character-skill = 24	99	99	13034431
+
+[SKILLING]
+ardougne-chest-timer = 0
+slayer-task = 0
+previous-slayer-task = 0
+slayer-task-amount = 0
+slayer-task-streak = 0
+slayer-master = 0
+duo-slayer = false
+duo-slayer-partner = null
+double-slayer-xp = false
+summoning-npcid = -1
+summoning-death-timer = -1
+walked-agility-object = 0	false
+walked-agility-object = 1	false
+walked-agility-object = 2	false
+walked-agility-object = 3	false
+walked-agility-object = 4	false
+walked-agility-object = 5	false
+walked-agility-object = 6	false
+storedRuneEss = 0
+storedPureEss = 0
+effigy-status = 0
+process-farming = false
+
+[MINIGAMES]
+warriors-guild-index = 0	false
+warriors-guild-index = 1	false
+warriors-guild-index = 2	false
+warriors-guild-index = 3	false
+fight-cave-wave = 0
+brother-info = 0	0
+brother-info = 1	0
+brother-info = 2	0
+brother-info = 3	0
+brother-info = 4	0
+brother-info = 5	0
+random-barrows-coffin = 0
+barrows-killcount = 0
+
+[QUESTS]
+completedrfdwaves = 0
+rfdQuest = 0	false
+rfdQuest = 1	false
+rfdQuest = 2	false
+rfdQuest = 3	false
+rfdQuest = 4	false
+rfdQuest = 5	false
+rfdQuest = 6	false
+rfdQuest = 7	false
+rfdQuest = 8	false
+nomadquest = 0	false
+nomadquest = 1	false
+nomadquest = 2	false
+
+[DELAYS]
+new-account-timer = -1
+overload-timer = 0
+prayer-renewal-timer =0
+last-call-for-help = 0
+lastyell = 0
+lastvote = 0
+
+[LENDING]
+lendItemId = -1
+itemowner = 
+itemloaner =
+starttimer = -1
+endtimer = -1
+
+[BORROWING]
+borrowItemId = -1
+itemowner = 
+itemloaner =
+starttimer = -1
+endtimer = -1
+
+[FRIENDS]
+
+[IGNORES]
+
+[CLAN]
+has-clan = false
+clan-chat = Desolace
+clan-chat-color = 0
+clan-chat-rgbindex = 0
+
+[ACHIEVEMENTS]
+achievement = 0	false
+achievement = 1	false
+achievement = 2	false
+achievement = 3	false
+achievement = 4	false
+achievement = 5	true
+achievement = 6	false
+achievement = 7	false
+achievement = 8	false
+achievement = 9	false
+achievement = 10	false
+achievement = 11	false
+achievement = 12	false
+achievement = 13	false
+achievement = 14	false
+achievement = 15	false
+achievement = 16	false
+achievement = 17	false
+achievement = 18	false
+achievement = 19	false
+achievement = 20	false
+achievement = 21	false
+achievement = 22	false
+achievement = 23	false
+achievement = 24	false
+achievement = 25	false
+achievement = 26	false
+achievement = 27	false
+achievement = 28	false
+achievement = 29	false
+achievement = 30	false
+
+[CLIENT]
+accepting-aid = true
+sound-volume = 2
+online-status = 0
+
+[MISC]
+resetposX = -1
+resetposY = -1
+resetposZ = -1
+
+[EOF]
+

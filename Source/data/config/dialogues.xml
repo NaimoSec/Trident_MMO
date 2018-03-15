@@ -1,0 +1,3049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	
+	<dialogue>
+		<id>1</id>
+		<type>PLAYER_STATEMENT</type>
+		<animation>ANGRY</animation>
+		<lines>1</lines>
+		<line1>Easy for you to say moron! Grrr...</line1>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+	    <id>2</id>
+	    <type>OPTION</type>
+	    <lines>1</lines>
+	    <line1>Choose this option yo!</line1>
+	    <next>-1</next>
+	</dialogue>
+	<dialogue>
+	    <id>3</id>
+	    <type>OPTION</type>
+	    <lines>2</lines>
+	    <line1>Choose this option yo!</line1>
+	    <line2>No! Choose me!</line2>
+	    <next>-1</next>
+	</dialogue>
+	<dialogue>
+	    <id>4</id>
+	    <type>OPTION</type>
+	    <lines>3</lines>
+	    <line1>Choose this option yo!</line1>
+	    <line2>No! Choose me!</line2>
+	    <line3>Don't listen to them! Choose me!</line3>
+	    <next>-1</next>
+	</dialogue>
+	<dialogue>
+	    <id>5</id>
+	    <type>ITEM_STATEMENT</type>
+	   	<lines>3</lines>
+	   	<line1>Hello line1 test!</line1>
+	   	<line2>Hello line2 test!</line2>
+	   	<line3>Hello line3 test!</line3>
+	   	<itemId>4151</itemId>
+	   	<itemZoom>200</itemZoom>
+	   	<header>Header test</header>
+	   	<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>6</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Hello!</line1>
+		<line2>What can I do for you?</line2>
+		<next>7</next>
+		<npcId>1861</npcId>
+		<header>Archer</header>
+		<animation>NORMAL</animation><dialogue>
+	    <id>0</id>
+	    <type>NPC_STATEMENT</type>
+	    <animation>GOOFY_LAUGH</animation>
+	    <lines>2</lines>
+	    <line1>Hello, lovely day isn't it?</line1>
+	    <line2>Even though there isn't a weather system...</line2>
+	    <next>1</next>
+	    <npcId>1</npcId>
+	</dialogue></dialogue>
+	<dialogue>
+		<id>7</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Ranged items.</line1>
+		<line2>Nothing, thanks.</line2>
+		<next>8</next>
+		<animation>NORMAL</animation>
+		</dialogue>
+	<dialogue>
+		<id>8</id>
+		<type>NPC_STATEMENT</type>
+		<npcId>1861</npcId>
+		<header>Archer</header>
+		<animation>NORMAL</animation>
+		<lines>2</lines>
+		<line1>I currently have two stocks.</line1>
+		<line2>Which one would you like to view?</line2>
+		<next>9</next></dialogue>
+	<dialogue><animation>QUESTION</animation>
+		<id>9</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Ranged equipment</line1>
+		<line2>Ranged ammunition</line2>
+		<next>-1</next>
+		<line3>None, thanks.</line3></dialogue>
+	<dialogue>
+		<id>10</id>
+		<animation>NORMAL</animation>
+		<lines>2</lines>
+		<line1>Hello.</line1>
+		<line2>What can I do for you?</line2>
+		<next>11</next>
+		<npcId>494</npcId>
+		<type>NPC_STATEMENT</type>
+		<header>Bank servant</header></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<npcId>494</npcId>
+		<id>11</id>
+		<animation>NORMAL</animation>
+		<lines>2</lines>
+		<line1>I'd like to view my bank.</line1>
+		<line2>I'd like to view my PIN settings.</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>12</id>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type>
+		<header>Bank server</header>
+		<npcId>494</npcId>
+		<lines>2</lines>
+		<line1>You do not have a bank PIN set.</line1>
+		<line2>Would you like to set one?</line2>
+		<next>13</next></dialogue>
+	<dialogue>
+		<id>13</id>
+		<type>OPTION</type>
+		<npcId>494</npcId>
+		<next>-1</next>
+		<lines>2</lines>
+		<line1>Configure bank PIN.</line1>
+		<line2>Cancel.</line2>
+		<header>Bank servant</header></dialogue>
+	<dialogue>
+		<next>15</next>
+		<type>NPC_STATEMENT</type>
+		<npcId>494</npcId>
+		<id>14</id>
+		<line1>You currently have a bank PIN set.</line1>
+		<line2>Would you like to delete it?</line2>
+		<lines>2</lines>
+		<animation>NORMAL</animation></dialogue>
+	<dialogue>
+		<id>15</id>
+		<next>-1</next>
+		<npcId>494</npcId>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Delete bank PIN.</line1>
+		<line2>Cancel.</line2></dialogue>
+	<dialogue>
+		<header>Priest</header>
+		<type>NPC_STATEMENT</type>
+		<npcId>216</npcId>
+		<lines>2</lines>
+		<line1>Hello. I'm able to teleport you to different altars.</line1>
+		<line2>Which altar would you like to visit?</line2>
+		<id>16</id>
+		<next>17</next>
+		<animation>NORMAL</animation></dialogue>
+	<dialogue><type>OPTION</type>
+		<line3>The Lunar altar</line3>
+		<line2>The Ancient altar</line2>
+		<line1>The Modern altar</line1>
+		<lines>3</lines>
+		<next>-1</next>
+		<npcId>1985</npcId>
+		<id>17</id></dialogue>
+	<dialogue>
+		<id>18</id>
+		<id>520</id>
+		<next>19</next>
+		<npcId>520</npcId>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>You're one of those adventurers, aren't you?</line1>
+		<line2>If you wish to sell or buy items, simply trade me.</line2>
+		<animation>NORMAL</animation></dialogue>
+	<dialogue>
+		<id>19</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Remember, all the items in my stock are items that</line1>
+		<line2>I have bought from other adventurers.</line2>
+		<next>-1</next>
+		
+		<npcId>520</npcId><header>Shopkeeper</header>
+		<animation>NORMAL</animation>
+	</dialogue>
+	<dialogue>
+		<id>20</id>
+		<npcId>705</npcId>
+		<type>NPC_STATEMENT</type>
+		<next>21</next>
+		<header>Warrior</header>
+		<animation>NORMAL</animation>
+		<lines>2</lines>
+		<line2>Would you like to buy some equipment?</line2>
+		<line1>Hello!</line1></dialogue>
+	<dialogue>
+		<id>21</id>
+		<npcId>561</npcId>
+		<lines>4</lines>
+		<type>OPTION</type>
+		<line1>I'd like to view your stock of Armour</line1>
+		<line2>I'd like to view your stock of Weapons</line2>
+		<line3>I'd like to view your stock of Jewelries</line3>
+		<line4>No, thanks.</line4>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>22</id>
+		<type>NPC_STATEMENT</type>
+		<line1>And what are you after?</line1>
+		<lines>1</lines>
+		<animation>NORMAL</animation>
+		<next>23</next>
+		<npcId>4906</npcId>
+		<header>Wilfred</header></dialogue>
+	<dialogue>
+		<id>23</id>
+		<type>OPTION</type>
+		<line1>Who are you?</line1>
+		<lines>3</lines>
+		<line2>Do you have any Woodcutting items for sale?</line2>
+		<next>-1</next>
+		<npcId>4906</npcId>
+		<line3>I'd like to buy a Woodcutting Skillcape</line3></dialogue>
+	<dialogue>
+		<id>24</id><animation>NORMAL</animation>
+		<lines>3</lines>
+		<line1>I'm Wilfred! I'm a Woodcutting master!</line1>
+		<line2>Woodcutting is a great way to make money.</line2>
+		<next>23</next>
+		<line3>Did you need anything else?</line3>
+		<header>Wilfred</header>
+		<npcId>4906</npcId>
+		<type>NPC_STATEMENT</type>
+	</dialogue>
+	<dialogue>
+		<id>25</id>
+		<animation>NORMAL</animation>
+		<line1>Hello, and what are you after?</line1>
+		<lines>1</lines>
+		<animation>GLANCE_DOWN</animation>
+		<type>NPC_STATEMENT</type>
+		<header>Magic Intructor</header>
+		<next>26</next>
+		<npcId>946</npcId></dialogue>
+	<dialogue>
+		<id>26</id>
+		<header>Magic Intructor</header>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Magical items.</line1>
+		<line2>Nothing, thanks.</line2>
+		<npcId>946</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>27</id>
+		<header>Magic Intructor</header>
+		<animation>NORMAL</animation>
+		<line1>I currently have 2 stocks.</line1>
+		<line2>Which one would you like to view?</line2>
+		<next>28</next>
+		<npcId>946</npcId>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<npcId>946</npcId>
+		<next>-1</next>
+		<lines>3</lines>
+		<line1>Magical runes</line1>
+		<line2>Magical equipment</line2>
+		<line3>None, thanks.</line3>
+		<animation>NORMAL</animation>
+		<id>28</id></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Create a clan chat</line1>
+		<line2>Delete my clan chat</line2>
+		<line3>Set Private Chat Colour</line3>
+		<line4>Cancel</line4>
+		<id>29</id>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>30</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Dismiss familiar</line1>
+		<line2>Cancel</line2>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>31</id>
+		<next>-1</next>
+		<type>NPC_STATEMENT</type>
+		<npcId>1</npcId>
+		<animation>NORMAL</animation>
+		<lines>1</lines>
+		<line1>This</line1></dialogue>
+	<dialogue>
+		<next>-1</next>
+		<lines>4</lines>
+		<type>OPTION</type>
+		<line1>Open: Fishing Guide (Trident Wiki)</line1>
+		<line2>Teleport: Piscatoris Fishing Colony</line2>
+		<line3>Teleport: Catherby Fishing Aquariums</line3>
+		<line4>Teleport: Fishing Trawler Minigame</line4>
+		<id>32</id></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<next>-1</next>
+		<id>33</id>
+		<lines>2</lines>
+		<line2>Teleport: Edgeville Monastery</line2>
+		<line1>Open: Prayer Guide (Trident Wiki)</line1></dialogue>
+	<dialogue>
+		<id>34</id>
+		<line1>Open: Runecrafting Guide (Trident Wiki)</line1>
+		<line2>Teleport: Aubury</line2>
+		<line3>Teleport: DesoSpan (40 Runecrafting Required)</line3>
+		<lines>3</lines>
+		<next>-1</next>
+		<type>OPTION</type></dialogue>
+	<dialogue>
+		<id>35</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Open: Magic Guide (Trident Wiki)</line1>
+		<line2>Teleport: Magic Guild</line2>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>36</id>
+		<lines>2</lines>
+		<line1>Open: Combat Guide (Trident Wiki)</line1>
+		<line2>Teleport: Champions' Guild</line2>
+		<type>OPTION</type>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>37</id>
+		<type>OPTION</type>
+		<next>-1</next>
+		<lines>2</lines>
+		<line1>Open: Ranged Guide (Trident Wiki)</line1>
+		<line2>Teleport: Ranging Guild</line2></dialogue>
+	<dialogue>
+		<id>38</id>
+		<line1>Open: Agility Guide (Trident Wiki)</line1>
+		<line2>Teleport: Gnome Course</line2>
+		<line3>Teleport: Barbarian Outpost Course (35 Agility)</line3>
+		<line4>Teleport: Wilderness Course (55 Agility, @red@50 Wilderness@bla@)</line4>
+		<lines>4</lines>
+		<type>OPTION</type>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>39</id>
+		<lines>2</lines>
+		<type>OPTION</type>
+		<line1>Open: Herblore Guide (Trident Wiki)</line1>
+		<line2>Teleport: Herblore Training</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>40</id>
+		<lines>4</lines>
+		<line1>Open: Thieving Guide (Trident Wiki)</line1>
+		<line2>Teleports: Markets</line2>
+		<line3>Teleport: H.A.M Camp</line3>
+		<line4>Teleport: Master's chest (99 Thieving Required)</line4>
+		<type>OPTION</type>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>41</id>
+		<type>OPTION</type>
+		<next>-1</next>
+		<line1>Teleport: Ardougne Market</line1>
+		<line2>Teleport: Draynor Village Market</line2>
+		<line3>Teleport: Fremennik Market</line3>
+		<lines>3</lines>
+	</dialogue>
+	<dialogue>
+		<id>42</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<next>-1</next>
+		<line1>Open: Crafting Guide (Trident Wiki)</line1>
+		<line2>Teleport: Flax Field</line2>
+		<line3>Teleport: Spinning Wheel</line3>
+		<line4>Teleport: Crafting Guild (20 Crafting Required)</line4>
+	</dialogue>
+	<dialogue>
+		<id>43</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Open: Mining Guide (Trident Wiki)</line1>
+		<line2>Teleport: Mining Guild</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>44</id>
+		<lines>2</lines>
+		<line1>Open: Smithing Guide (Trident Wiki)</line1>
+		<line2>Teleport: Lumbridge Smith</line2>
+		<next>-1</next>
+		<type>OPTION</type>
+	</dialogue>
+	<dialogue>
+		<id>45</id>
+		<lines>2</lines>
+		<line1>Open: Cooking Guide (Trident Wiki)</line1>
+		<line2>Teleport: Rogues' Den</line2>
+		<type>OPTION</type>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>46</id>
+		<lines>2</lines>
+		<line1>Open: Firemaking Guide (Trident Wiki)</line1>
+		<line2>Teleport: Firemaking Master</line2>
+		<type>OPTION</type>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>47</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Open: Woodcutting Guide (Trident Wiki)</line1>
+		<line2>Teleport: Woodcutting Master</line2>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>48</id>
+		<lines>2</lines>
+		<next>49</next>
+		<type>NPC_STATEMENT</type>
+		<line1>Welcome to the Ranging Guild!</line1>
+		<line2>What can I do for you today?</line2>
+		<animation>NORMAL</animation>
+		<npcId>682</npcId>
+	</dialogue>
+	<dialogue>
+		<id>49</id>
+		<next>-1</next>
+		<lines>3</lines>
+		<line1>I'd like to know more about the Archery minigame over there.</line1>
+		<line2>I'd like to view your stock of Ranged equipment.</line2>
+		<line3>I'd like to talk about the cape that you're wearing.</line3>
+		<type>OPTION</type></dialogue>
+	<dialogue>
+		<id>50</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I'm wearing a Ranged Skillcape.</line1>
+		<line2>I see that you've mastered the skill! Would you like</line2>
+		<line3>to purchase a Ranged Skillcape for 99,000 Coins?</line3>
+		<animation>NORMAL</animation>
+		<next>51</next>
+		<npcId>682</npcId></dialogue>
+	<dialogue>
+		<id>51</id>
+		<lines>2</lines>
+		<line1>Yes, please.</line1>
+		<line2>No</line2>
+		<next>-1</next>
+		<type>OPTION</type></dialogue>
+	<dialogue>
+		<id>52</id>
+		<lines>2</lines>
+		<line1>Ah yes, the Archery competition minigame.</line1>
+		<line2>Many talented archers come here to test their luck!</line2>
+		<next>53</next>
+		<npcId>682</npcId>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type></dialogue>
+	<dialogue>
+		<id>53</id>
+		<lines>3</lines>
+		<line1>To participate, you need a Ranged level above 50,</line1>
+		<line2>200 Coins, a Shortbow and at least 10 Bronze arrows.</line2>
+		<line3>Remember that Arrows and Bows can be bought from me.</line3>
+		<next>55</next>
+		<npcId>682</npcId>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type></dialogue>
+	<dialogue>
+		<id>54</id>
+		<lines>3</lines>
+		<line1>Exchange 50 Archery Tickets for 100 Rune Arrows.</line1>
+		<line2>Exchange 100 Archery Tickets for 200 Rune Arrows. </line2>
+		<line3>Exchange X Archery Tickets for X*2 Rune Arrows</line3>
+		<next>-1</next>
+		<npcId>649</npcId>
+		<animation>NORMAL</animation>
+		<type>OPTION</type></dialogue>
+	<dialogue>
+		<id>55</id>
+		<lines>3</lines>
+		<line1>Talk to the Archer to the Southeast to start.</line1>
+		<line2>She will tell you that you must shoot</line2>
+		<line3>at a target five times in a row.</line3>
+		<next>56</next>
+		<npcId>682</npcId>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type></dialogue>
+	<dialogue>
+		<id>56</id>
+		<lines>2</lines>
+		<line1>Each time you hit a target you will receive a score.</line1>
+		<line2>This score is eventually used to calculate your reward!</line2>
+		<line3>The higher score, the more Archery tickets!</line3>
+		<next>57</next>
+		<npcId>682</npcId>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type></dialogue>
+	<dialogue>
+		<id>57</id>
+		<lines>2</lines>
+		<line1>Archery Tickets can be exchanged for rare weaponry.</line1>
+		<line2>If you need any more help, please ask a Moderator.</line2>
+		<next>-1</next>
+		<npcId>682</npcId>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type></dialogue>
+	<dialogue>
+		<id>59</id>
+		<lines>2</lines>
+		<line1>Well done!</line1>
+		<line2>Take these tickets as a reward.</line2>
+		<animation>NORMAL</animation>
+		<type>NPC_STATEMENT</type>
+		<npcId>649</npcId>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>60</id>
+		<npcId>649</npcId>
+		<lines>2</lines>
+		<line1>Hello. </line1>
+		<line2>And what are you after?</line2>
+		<type>NPC_STATEMENT</type>
+		<animation>NORMAL</animation>
+		<next>61</next></dialogue>
+	<dialogue>
+		<id>61</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Participte in a Archery Competition Game (200 Coins)</line1>
+		<line2>I'd like to spend my Archery tickets.</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Open: Slayer Guide (Trident Wiki)</line1>
+		<line2>Select: Slayer Master</line2>
+		<line3>Teleport: Slayer Master</line3>
+		<line4>Teleport: Slayer Tower</line4>
+		<next>-1</next>
+		<id>62</id></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>Vannaka</line1>
+		<line2>Duradel (Level 50 Slayer Required)</line2>
+		<line3>Kuradel (Level 80 Slayer Required)</line3>
+		<id>63</id>
+		<lines>3</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>Welcome to the Champions' Guild!</line1>
+		<line2>Do you need anything?</line2>
+		<id>64</id>
+		<lines>2</lines>
+		<animation>NORMAL</animation>
+		<npcId>4288</npcId>
+		<next>65</next></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>Ask about Skillcape of Attack</line1>
+		<line2>Ask about Skillcape of Strength</line2>
+		<line3>Ask about Skillcape of Defence</line3>
+		<id>65</id>
+		<lines>3</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>I'm wearing a Ranged Skillcape.</line1>
+		<line2>Once you've mastered the arts of Ranged,</line2>
+		<line3>come talk to me! I'll sell you one!</line3>
+		<animation>NORMAL</animation>
+		<id>66</id>
+		<npcId>682</npcId>
+		<lines>3</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>Welcome to the Monastery, my friend!</line1>
+		<line2>What can I do for you?</line2>
+		<animation>NORMAL</animation>
+		<id>67</id>
+		<npcId>802</npcId>
+		<lines>2</lines>
+		<next>68</next></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>I'd like to view your stock of Prayer items</line1>
+		<line2>I'd like to talk about the cape that you're wearing</line2>
+		<line3>I'd like you to change my Prayer book.</line3>
+		<id>68</id>
+		<lines>3</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>I'm wearing a Prayer Skillcape.</line1>
+		<line2>I believe that the Prayer Skillcape is the hardest cape</line2>
+		<line3>to get because it requires great devotion to the gods.</line3>
+		<animation>PLAIN_TALKING</animation>
+		<id>69</id>
+		<npcId>802</npcId>
+		<lines>3</lines>
+		<next>70</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>However, if you ever manage to master the skill,</line1>
+		<line2>come talk to me! I'll sell you a Prayer cape.</line2>
+		<animation>NORMAL</animation>
+		<id>70</id>
+		<npcId>802</npcId>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>71</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I'm wearing a Prayer Skillcape.</line1>
+		<line2>I see that you've mastered the skill! Would you like</line2>
+		<line3>to purchase a Prayer Skillcape for 99,000 Coins?</line3>
+		<animation>NORMAL</animation>
+		<next>72</next>
+		<npcId>802</npcId></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>Yes</line1>
+		<line2>No</line2>
+		<id>72</id>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>Welcome to the Magic Guild.</line1>
+		<line2>Do you need anything?</line2>
+		<animation>NORMAL</animation>
+		<id>73</id>
+		<npcId>1658</npcId>
+		<lines>2</lines>
+		<next>74</next></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>I'd like to view your stock of Magical items.</line1>
+		<line2>I'd like to talk about the cape that you're wearing.</line2>
+		<line3>I'd like you to change my Spellbook.</line3>
+		<id>74</id>
+		<lines>3</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>I'm wearing a Magic Skillcape.</line1>
+		<line2>The Magic skill allows you to cast and use spells</line2>
+		<line3>to your advantage. If you manage to master it -</line3>
+		<animation>NORMAL</animation>
+		<id>75</id>
+		<npcId>1658</npcId>
+		<lines>3</lines>
+		<next>76</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>Come talk to me.</line1>
+		<line2>I'll sell you a cape like mine.</line2>
+		<animation>NORMAL</animation>
+		<id>76</id>
+		<npcId>1658</npcId>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<id>77</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I'm wearing a Magic Skillcape.</line1>
+		<line2>I see that you've mastered the skill! Would you like</line2>
+		<line3>to purchase a Magic Skillcape for 99,000 Coins?</line3>
+		<animation>NORMAL</animation>
+		<next>72</next>
+		<npcId>1658</npcId></dialogue>
+		
+	<dialogue>
+		<id>78</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Greetings!</line1>
+		<line2>How can I help you?</line2>
+		<animation>NORMAL</animation>
+		<next>79</next>
+		<npcId>553</npcId></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>I'd like to view your stock of Runecrafting items</line1>
+		<line2>Could you tell me how to get Runecrafting Essence?</line2>
+		<line3>Could you tell me how to get to Runecrafting Altars?</line3>
+		<line4>I'd like to talk about the cape that you're wearing</line4>
+		<id>79</id>
+		<lines>4</lines>
+		<next>-1</next></dialogue>
+		
+	<dialogue>
+		<id>80</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>You can teleport to an Altar by using it's Talisman's</line1>
+		<line2>Locate option. You can find Talismans in my shop.</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>553</npcId></dialogue>
+		
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>I'm wearing a Runecrafting Skillcape.</line1>
+		<line2>The Runecrafting skill allows you to create runes.</line2>
+		<line3>Runes can be used for things such as Magical spells.</line3>
+		<animation>NORMAL</animation>
+		<id>81</id>
+		<npcId>553</npcId>
+		<lines>3</lines>
+		<next>82</next></dialogue>
+		
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>If you ever master the Runecrafting skill,</line1>
+		<line2>come talk to me. I'll sell you a cape like mine.</line2>
+		<animation>NORMAL</animation>
+		<id>82</id>
+		<npcId>553</npcId>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+		
+	<dialogue>
+		<id>83</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I'm wearing a Runecrafting Skillcape.</line1>
+		<line2>I see that you've mastered the skill! Would you like</line2>
+		<line3>to purchase a Runecrafting Skillcape for 99,000 Coins?</line3>
+		<animation>NORMAL</animation>
+		<next>72</next>
+		<npcId>553</npcId></dialogue>
+		
+	<dialogue>
+		<type>OPTION</type>
+		<line1>Open: Constitution Guide (Trident Wiki)</line1>
+		<line2>Teleport: Duel Arena</line2>
+		<id>84</id>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+		
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>I'm wearing a Constitution Skillcape.</line1>
+		<line2>The Constitution skill is your @red@Life@bla@.</line2>
+		<line3>Higher levels mean more life points.</line3>
+		<animation>NORMAL</animation>
+		<id>85</id>
+		<npcId>961</npcId>
+		<lines>3</lines>
+		<next>86</next></dialogue>
+		
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>If you ever master the Constitution skill,</line1>
+		<line2>come talk to me and I'll sell you a cape like mine.</line2>
+		<animation>NORMAL</animation>
+		<id>86</id>
+		<npcId>961</npcId>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+		
+	<dialogue>
+		<id>87</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I'm wearing a Constitution Skillcape.</line1>
+		<line2>I see that you've mastered the skill! Would you like</line2>
+		<line3>to purchase a Constitution Skillcape for 99,000 Coins?</line3>
+		<animation>NORMAL</animation>
+		<next>72</next>
+		<npcId>961</npcId></dialogue>
+		
+		
+	<dialogue>
+		<id>88</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Welcome to the famous Duel Arena!</line1>
+		<line2>Many warriors come here to prove their strength!</line2>
+		<animation>NORMAL</animation>
+		<next>89</next>
+		<npcId>961</npcId></dialogue>
+		
+	<dialogue>
+		<id>89</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to view your stock of Consumables</line1>
+		<line2>I'd like to talk about the cape that you're wearing</line2>
+		<line3>Could you please restore my stats?</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>961</npcId></dialogue>
+		
+	<dialogue>
+		<id>90</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to sell my Artifacts</line1>
+		<line2>I'd like to view your Pk points exchange</line2>
+		<line3>I'd like to view your stock of Combat items</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>8725</npcId></dialogue>
+	<dialogue>
+		<id>91</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>What can I do for you?</line1>
+		<animation>NORMAL</animation>
+		<next>92</next>
+		<npcId>4946</npcId></dialogue>
+	<dialogue>
+		<id>92</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Firemaking items</line1>
+		<line2>I'd like to buy a Firemaking Cape</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>6537</npcId></dialogue>
+		
+	<dialogue>
+		<id>93</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Hah!</line1>
+		<line2>Come back when you have some more experience..</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>4946</npcId></dialogue>
+		
+	<dialogue>
+		<id>94</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Hey you! Yes, you!</line1>
+		<line2>Finish the whole course next time!</line2>
+		<animation>ANGRY</animation>
+		<next>-1</next>
+		<npcId>437</npcId></dialogue>
+		
+	<dialogue>
+		<id>95</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Good job on completing the course!</line1>
+		<line2>Take these tickets as reward.</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>437</npcId></dialogue>
+		
+	<dialogue>
+		<id>96</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Keep going friend! You're doing great.</line1>
+		<line2>Take these tickets as reward and motivation!</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>437</npcId></dialogue>
+		
+	<dialogue>
+		<id>97</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Good job! </line1>
+		<line2>Moving through pipes and climbing trees is not easy!</line2>
+		<line3>Take these tickets as reward!</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>437</npcId></dialogue>
+		
+		
+	<dialogue>
+		<id>98</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>How can I help you?</line1>
+		<animation>NORMAL</animation>
+		<next>99</next>
+		<npcId>437</npcId></dialogue>
+		
+	<dialogue>
+		<id>99</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to view your Agility Shop</line1>
+		<line2>I'd like to view your Agility Ticket Exchange</line2>
+		<line3>I'd like to buy an Agility Skillcape</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>437</npcId></dialogue>
+		
+	<dialogue>
+		<id>100</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You are not experienced enough to wear that cape.</line1>
+		<line2>Looks like you could use some training.</line2>
+		<line3>Feel free to use the course! It's for everyone!</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>437</npcId></dialogue>
+		
+	<dialogue>
+		<id>101</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Welcome to my humble home!</line1>
+		<line2>How can I assist you?</line2>
+		<animation>NORMAL</animation>
+		<next>102</next>
+		<npcId>8459</npcId></dialogue>
+	
+		<dialogue>
+		<id>102</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to view your stock of Herblore items</line1>
+		<line2>How do I mix potions?</line2>
+		<line3>I'd like to buy a Herblore Skillcape</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>8459</npcId></dialogue>
+		
+	<dialogue>
+		<id>103</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You mix the potion's ingredients with a Vial of Water.</line1>
+		<line2>For example, if I were to mix an Attack Potion, the two</line2>
+		<line3>ingredients would be an Eye of Newt and a Clean Guam.</line3>
+		<animation>NORMAL</animation>
+		<next>112</next>
+		<npcId>8459</npcId></dialogue>
+		
+	<dialogue>
+		<id>112</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>A potion's special ingredients can be found in</line1>
+		<line2>the Ingridient's book, which is sold in my store.</line2>
+		<animation>NORMAL</animation>
+		<next>104</next>
+		<npcId>8459</npcId></dialogue>
+		
+	<dialogue>
+		<id>104</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>My stock currently only contains basic herbs.</line1>
+		<line2>If you'd like better, you'll have to get them yourself from</line2>
+		<line3>either the Farming skill, or from mobs like Chaos Druids.</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>8459</npcId></dialogue>
+
+		
+	<dialogue>
+		<id>106</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>8459</npcId></dialogue>
+		
+	<dialogue>
+		<id>107</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Another adventurer enters the cave!</line1>
+		<animation>GOOFY_LAUGH</animation>
+		<next>108</next>
+		<npcId>948</npcId></dialogue>
+	<dialogue>
+		<id>108</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Well.. How can I help you?</line1>
+		<animation>NORMAL</animation>
+		<next>109</next>
+		<npcId>948</npcId></dialogue>	
+	<dialogue>
+		<id>109</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Mining equipment</line1>
+		<line2>I'd like to buy a Mining Skillcape</line2>
+		<next>-1</next>
+		<npcId>948</npcId></dialogue>
+	<dialogue>
+		<id>110</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Sorry pal, you'll have to mine some more ores first.</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>948</npcId></dialogue>	
+	<dialogue>
+		<id>111</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Wear the cape with pride, pal.</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>948</npcId></dialogue>	
+	<dialogue>
+		<id>205</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Welcome to the Crafting Guild.</line1>
+		<animation>NORMAL</animation>
+		<next>206</next>
+		<npcId>805</npcId></dialogue>	
+	<dialogue>
+		<id>206</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Can you show me your stock of Crafting items?</line1>
+		<line2>I need some hides tanned..</line2>
+		<line3>Can I buy a Crafting Skillcape?</line3>
+		<next>-1</next>
+		<npcId>805</npcId></dialogue>
+	<dialogue>
+		<id>200</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Rock Crabs (Level 13)</line1>
+		<line2>Experiments (Level 25)</line2>
+		<line3>Flesh Crawlers (Level 35)</line3>
+		<line4>Bandits (Level 56)</line4>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<id>201</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>Edgeville Dungeon</line1>
+		<line2>Chaos Tunnels</line2>
+		<line3>Brimhaven Dungeon</line3>
+		<line4>Taverly Dungeon</line4>
+		<line5>Next Page</line5>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+		
+	<dialogue>
+		<id>203</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>Warriors Guild</line1>
+		<line2>Pest Control</line2>
+		<line3>Duel Arena</line3>
+		<line4>Barrows</line4>
+		<line5>Next Page</line5>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<id>117</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>TzHaar Fight Cave</line1>
+		<line2>TzHaar Fight Pit</line2>
+		<line3>Conquest Arena</line3>
+		<line4>Fishing Trawler</line4>
+		<line5>Next Page</line5>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<id>118</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Teleport: Quest Location</line1>
+		<line2>Open Quest Log</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<id>116</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Essence is a natural resource that can be mined.</line1>
+		<line2>There are two different types of Essence,</line2>
+		<line3>Rune and Pure.</line3>
+		<line4>Essence are used to create Magical Runes.</line4>
+		<animation>NORMAL</animation>
+		<next>113</next>
+		<npcId>553</npcId></dialogue>	
+	<dialogue>
+		<id>113</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Do you want me to teleport you to the mine?</line1>
+		<animation>NORMAL</animation>
+		<next>114</next>
+		<npcId>553</npcId></dialogue>
+	<dialogue>
+		<id>114</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes</line1>
+		<line2>No</line2>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<id>115</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Rune essence</line1>
+		<line2>Pure essence (Level 17 Mining)</line2>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<type>OPTION</type>
+		<line1>Open: Fletching Guide (Trident Wiki)</line1>
+		<line2>Teleport: Master Fletcher</line2>
+		<id>230</id>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+	<dialogue>
+		<type>NPC_STATEMENT</type>
+		<line1>Welcome!</line1>
+		<line2>How can I help you?</line2>
+		<id>231</id>
+		<lines>2</lines>
+		<animation>NORMAL</animation>
+		<npcId>575</npcId>
+		<next>232</next></dialogue>
+		
+		<dialogue>
+		<type>OPTION</type>
+		<line1>I'd like to buy a Fletching Skillcape</line1>
+		<line2>I'd like to view your store of Fletching items</line2>
+		<id>232</id>
+		<lines>2</lines>
+		<next>-1</next></dialogue>
+		
+	<dialogue>
+		<id>233</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>575</npcId></dialogue>
+	<dialogue>
+		<id>234</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>805</npcId></dialogue>
+		
+	<dialogue>
+		<id>235</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Open: Hunter Guide (Trident Wiki)</line1>
+		<line2>Teleport: Puro Puro</line2>
+		<line3>Teleport: Karamja - Trap area (Level 23 Hunter Required)</line3>
+		<next>-1</next>
+		</dialogue>
+		
+	<dialogue>
+		<id>236</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Tell me, adventurer, what can I do for you?</line1>
+		<animation>NORMAL</animation>
+		<next>237</next>
+		<npcId>5113</npcId></dialogue>
+		
+	<dialogue>
+		<id>237</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Hunting items</line1>
+		<line2>I'd like to buy a Hunter Skillcape</line2>
+		<next>-1</next>
+		</dialogue>
+		
+	<dialogue>
+		<id>238</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>5113</npcId></dialogue>
+		
+		
+	<dialogue>
+		<id>239</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Welcome to the Lumbridge Smith!</line1>
+		<line2>What can I do for you?</line2>
+		<animation>NORMAL</animation>
+		<next>240</next>
+		<npcId>2820</npcId></dialogue>
+		
+	<dialogue>
+		<id>240</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Smithing items</line1>
+		<line2>I'd like to buy a Smithing Skillcape</line2>
+		<next>-1</next>
+		</dialogue>
+		
+	<dialogue>
+		<id>241</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>2820</npcId></dialogue>
+		
+	<dialogue>
+		<id>242</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Welcome to Rogues' Den.</line1>
+		<line2>How can I help you?</line2>
+		<animation>NORMAL</animation>
+		<next>243</next>
+		<npcId>847</npcId></dialogue>
+		
+	<dialogue>
+		<id>243</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>I'd like to view your stock of Cooking items</line1>
+		<line2>I'd like to buy a Cooking Skillcape</line2>
+		<next>-1</next>
+		</dialogue>
+	<dialogue>
+		<id>244</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>847</npcId></dialogue>
+		
+			<dialogue>
+		<id>245</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>You don't have enough experience.</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>4906</npcId></dialogue>
+		
+					
+					
+	<dialogue>
+		<id>246</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>JalYt, are you sure you wish to enter the cave?</line1>
+		<line2>That's where TzTok-Jad was trapped centuries ago!</line2>
+		<animation>NORMAL</animation>
+		<next>247</next>
+		<npcId>2617</npcId></dialogue>
+		
+	<dialogue>
+		<id>247</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Enter cave</line1>
+		<line2>Cancel</line2>
+		<next>-1</next>
+		</dialogue>
+		
+	<dialogue>
+		<id>248</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>You're on your own now JalYt, prepare to fight for</line1>
+		<line2>your life!</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2617</npcId></dialogue>
+	<dialogue>
+		<id>249</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>JalYt, your wave will start in 8 seconds.</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2617</npcId></dialogue>
+	<dialogue>
+		<id>250</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Well fought, JalYt, take these tokens as a reward.</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2617</npcId></dialogue>
+	<dialogue>
+		<id>251</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Look out, here comes TzTok-Jad!</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2617</npcId></dialogue>
+	<dialogue>
+		<id>252</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>You even defeated TzTok-Jad, I am most impressed!</line1>
+		<line2>Please take this gift as a reward.</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2617</npcId></dialogue>
+	<dialogue>
+		<id>253</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Woah, you are a true warrior! I guess you want more!</line1>
+		<line2>I've set up the cyclopses to drop Dragon Defenders.</line2>
+		<line3>Enter through the doors when ready.</line3>
+		<animation>WIDEN_EYES</animation>
+		<next>-1</next>
+		<npcId>4289</npcId></dialogue>
+		
+		<dialogue>
+		<id>254</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>HAHA YOU want to enter?</line1>
+		<line2>Only the finest warriors can enter my arena!</line2>
+		<line3>Come back when you have 200 points.</line3>
+		<animation>GOOFY_LAUGH</animation>
+		<next>-1</next>
+		<npcId>4289</npcId></dialogue>
+		
+	<dialogue>
+		<id>255</id>
+		<type>STATEMENT</type>
+		<lines>1</lines>
+		<line1>You've found a hidden tunnel! Would you like to enter?</line1>
+		<next>256</next></dialogue>
+		
+	<dialogue>
+		<id>256</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Enter</line1>
+		<line2>Cancel</line2>
+		<next>-1</next>
+		</dialogue>
+		
+	<dialogue>
+		<id>257</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>So you want to start earning some defenders?</line1>
+		<line2>I've set up the cyclopses to drop Bronze defenders.</line2>
+		<line3>Enter through the doors when ready</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>4289</npcId></dialogue>
+	<dialogue>
+		<id>259</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Welcome to the Duel Arena!</line1>
+		<line2>The following features are disabled within the arena:</line2>
+		<line3>Summoning, Ring of Life, and Phoenix necklace.</line3>
+		<animation>NORMAL</animation>
+		<next>260</next>
+		<npcId>961</npcId>
+	</dialogue>
+		<dialogue>
+		<id>261</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Please! You must help me, adventurer!</line1>
+		<line2>The Culinaromancer is back!</line2>
+		<animation>SAD</animation>
+		<next>262</next>
+		<npcId>278</npcId>
+	</dialogue>
+	<dialogue>
+		<id>262</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Come to your senses!</line1>
+		<line2>What's happened?</line2>
+		<animation>PLAIN_TALKING</animation>
+		<next>263</next>
+		</dialogue>
+	<dialogue>
+		<id>263</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>The Culinaromancer is back!</line1>
+		<line2>He appeared at the dinner last night and froze the room!</line2>
+		<line3>Luckily I managed to escape before he cast the spell..</line3>
+		<animation>SAD</animation>
+		<next>264</next>
+		<npcId>278</npcId>
+	</dialogue>
+		<dialogue>
+		<id>264</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You must help me..</line1>
+		<line2>In order to lift the spell, the Culinaromancer</line2>
+		<line3>must be defeated.. Sadly, I'm just a Cook..</line3>
+		<animation>SAD</animation>
+		<next>265</next>
+		<npcId>278</npcId>
+	</dialogue>
+		<dialogue>
+		<id>265</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>1</lines>
+		<line1>How do I defeat him?</line1>
+		<animation>PLAIN_TALKING</animation>
+		<next>266</next>
+		<npcId>278</npcId>
+		</dialogue>
+	<dialogue>
+		<id>266</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Enter the room to the north and you will find a portal.</line1>
+		<line2>Enter the portal and gain the Culinaromancer's attention</line2>
+		<line3>by defeating any mobs that spawn.</line3>
+		<animation>PLAIN_TALKING</animation>
+		<next>267</next>
+		<npcId>278</npcId>
+	</dialogue>
+		<dialogue>
+		<id>267</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Once you've defeated all of them, the Culinaromancer</line1>
+		<line2>will fight you himself. Defating him will lift the spell.</line2>
+		<animation>PLAIN_TALKING</animation>
+		<next>268</next>
+		<npcId>278</npcId>
+	</dialogue>
+	<dialogue>
+		<id>268</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Every boss that you defeat will unlock deeper access</line1>
+		<line2>into the Culinaromancer's chest, found in the basement.</line2>
+		<animation>PLAIN_TALKING</animation>
+		<next>269</next>
+		<npcId>278</npcId>
+	</dialogue>
+<dialogue>
+		<id>269</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Will you help?</line1>
+		<animation>PLAIN_TALKING</animation>
+		<next>270</next>
+		<npcId>278</npcId>
+	</dialogue>
+	<dialogue>
+	    <id>270</id>
+	    <type>OPTION</type>
+	    <lines>2</lines>
+	    <line1>Yes</line1>
+	    <line2>No, maybe later.</line2>
+	    <next>-1</next>
+	</dialogue>
+	<dialogue>
+	<id>271</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Thank you for helping, adventurer!</line1>
+		<line2>I wish you the best of luck.</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>278</npcId>
+	</dialogue>
+<dialogue>
+	<id>272</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>3</lines>
+		<line1>It appears that the Cook was telling the truth!</line1>
+		<line2>I must rescue them.</line2>
+		<line3>I wonder what's inside that portal..</line3>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+	<id>273</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You did it!</line1>
+		<line2>You defeated the Culinaromancer!</line2>
+		<line3>Thank you so much!</line3>
+		<animation>NORMAL</animation>
+		<next>274</next>
+		<npcId>278</npcId>
+	</dialogue>
+	<dialogue>
+		<id>274</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Remember that you now have full access</line1>
+		<line2>to the Culinaromancer's chest!</line2>
+		<line3>You can find it in the basement.</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>278</npcId>
+	</dialogue>
+		<dialogue>
+		<id>275</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Go Upstairs</line1>
+		<line2>Go Downstairs</line2>
+		<line3>Neither</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>276</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>Edgeville Wilderness Ditch</line1>
+		<line2>Edgeville West Dragons (Level 10 Wilderness)</line2>
+		<line4>Edgeville East Dragons (Level 18 Wilderness)</line4>
+		<line3>Chaos Altar (Level 13 Wilderness)</line3>
+		<line5>[MULTI] Bandit Camp (Level 23 Wilderness) [MULTI]</line5>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>277</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>Nex (Level 1001)</line1>
+		<line2>Corporeal Beast (Level 785)</line2>
+		<line3>Chaos Elemental (Level 500, Level 50 Wilderness) </line3>
+		<line4>Slash Bash (Level 111)</line4>
+		<line5>Next Page</line5>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>278</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>King Black Dragon (Level 276)</line1>
+		<line2>Tormented Demons (Level 300)</line2>
+		<line3>Revenants</line3>
+		<line4>Previous Page</line4>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>279</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Smith Dragon Platebody</line1>
+		<line2>Cancel</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>280</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Smith Dragon Fire Shield</line1>
+		<line2>Cancel</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>282</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Open: Summoning Guide (Trident Wiki)</line1>
+		<line2>Teleport: Summoning Master</line2>
+		<next>-1</next>
+	</dialogue>
+		<dialogue>
+	<id>283</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>An adventurer!</line1>
+		<line2>I'm selling some of my old items.</line2>
+		<line3>Would you like to take a look?</line3>
+		<header>Explorer Jack</header>
+		<animation>NORMAL</animation>
+		<next>284</next>
+		<npcId>13295</npcId>
+	</dialogue>
+	<dialogue>
+		<id>284</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes, I'd like to view your stock.</line1>
+		<line2>No, maybe later.</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>285</id>
+		<type>STATEMENT</type>
+		<lines>1</lines>
+		<line1>The explorer shows you his stock..</line1>
+		<next>286</next>
+	</dialogue>
+	<dialogue>
+		<id>286</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to buy an Anti-dragon shield for 1,000 coins.</line1>
+		<line2>I'd like to buy a Spade for 200 coins.</line2>
+		<line3>Cancel.</line3>
+		<next>-1</next>
+		</dialogue>
+	<dialogue>
+	<id>287</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Pleasure doing business with you!</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>13295</npcId>
+	</dialogue>
+	<dialogue>
+		<id>288</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I want to use Prayers.</line1>
+		<line2>I want to use Curses.</line2>
+		<line3>Cancel.</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>289</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>There you go!</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>802</npcId>
+	</dialogue>
+	<dialogue>
+		<id>290</id>
+		<type>STATEMENT</type>
+		<lines>1</lines>
+		<line1>You need at least 50 Prayer and 30 Defence for this Prayerbook.</line1>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>292</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Need any broken barrows equipment fixed? Talk to me!</line1>
+		<line2>Otherwise, leave me alone!</line2>
+		<animation>ANGRY</animation>
+		<next>295</next>
+		<npcId>2024</npcId>
+	</dialogue>
+	<dialogue>
+		<id>293</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You have some broken equipment there.</line1>
+		<line2>I fix broken equipment for 45.000 coins per piece.</line2>
+		<line3>Are you interested?</line3>
+		<animation>NORMAL</animation>
+		<next>294</next>
+		<npcId>2024</npcId>
+	</dialogue>
+	<dialogue>
+		<id>294</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes, please.</line1>
+		<line2>No, maybe later.</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>295</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Pfft..</line1>
+		<animation>ANGRY</animation>
+		<next>-1</next>
+	</dialogue>
+		<dialogue>
+		<id>296</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Hello. What can I do for you?</line1>
+		<animation>NORMAL</animation>
+		<next>297</next>
+		<npcId>2270</npcId>
+	</dialogue>
+		<dialogue>
+		<id>297</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Could I buy a Skillcape of Thieving?</line1>
+		<line2>Nothing.</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>298</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Hmm, okay. I want 99,000 coins for it though.</line1>
+		<animation>NORMAL</animation>
+		<next>299</next>
+		<npcId>2270</npcId>
+	</dialogue>
+<dialogue>
+		<id>299</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Pay 99,000 coins.</line1>
+		<line2>No thanks.</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>300</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Alright.</line1>
+		<line2>Which type of Spellbook do you want to use?</line2>
+		<animation>NORMAL</animation>
+		<next>301</next>
+		<npcId>1658</npcId>
+	</dialogue>
+	<dialogue>
+	<id>301</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Modern Magic</line1>
+		<line2>Ancient Magic</line2>
+		<line3>Lunar Magic</line3>
+		<line4>Cancel</line4>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>302</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>There you go!</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>1658</npcId>
+	</dialogue>
+		<dialogue>
+		<id>303</id>
+		<type>STATEMENT</type>
+		<lines>1</lines>
+		<line1>You need a Magic level of at least 50 to use that Spellbook.</line1>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>304</id>
+		<type>STATEMENT</type>
+		<lines>1</lines>
+		<line1>You need at least 40 Defence and 65 Magic for that Spellbook.</line1>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+     <id>305</id>
+     <type>OPTION</type>
+     <lines>4</lines>
+     <line1>Pikkupstix's Pouch Materials I</line1>
+     <line2>Pikkupstix's Pouch Materials II</line2>
+     <line3>Pikkupstix's Pouch Materials III</line3>
+     <line4>Cancel</line4>
+     <next>-1</next>
+ </dialogue>
+	<dialogue>
+	<id>306</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>View stock of Runecrafting items</line1>
+		<line2>View stock of Magical runes</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>307</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Hello.</line1>
+		<animation>NORMAL</animation>
+		<next>308</next>
+		<npcId>6970</npcId>
+	</dialogue>
+	<dialogue>
+     <id>308</id>
+     <type>PLAYER_STATEMENT</type>
+     <lines>1</lines>
+     <line1>Hello there.</line1>
+     <animation>NORMAL</animation>
+     <next>309</next></dialogue>
+    <dialogue>
+	<id>309</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>I'd like to view your stock of Summoning items</line1>
+		<line2>How do I get Summoning charms?</line2>
+		<line3>I'd like to buy a Summoning Skillcape</line3>
+		<line4>Nothing, thanks</line4>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+     <id>310</id>
+     <type>NPC_STATEMENT</type>
+     <lines>3</lines>
+     <line1>Summoning charms are randomly dropped</line1>
+     <line2>by mobs when they die. Simply pick them up</line2>
+     <line3>from the ground.</line3>
+     <animation>LOOK_DOWN</animation>
+     <npcId>6970</npcId>
+     <next>309</next>
+ </dialogue>
+ 	<dialogue>
+     <id>311</id>
+     <type>NPC_STATEMENT</type>
+     <lines>1</lines>
+     <line1>You need some more experience.</line1>
+     <animation>NORMAL</animation>
+     <npcId>6970</npcId>
+     <next>309</next>
+ </dialogue>
+  <dialogue>
+     <id>312</id>
+     <type>PLAYER_STATEMENT</type>
+     <lines>1</lines>
+     <line1>Hello there!</line1>
+     <animation>NORMAL</animation>
+     <next>313</next>
+ </dialogue>
+ 	<dialogue>
+	<id>313</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Can I view your stock of Fishing items</line1>
+		<line2>Can you sell me a Fishing Skillcape?</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+	</dialogue>
+	 <dialogue>
+     <id>314</id>
+     <type>NPC_STATEMENT</type>
+     <lines>1</lines>
+     <line1>You need some more experience.</line1>
+     <animation>NORMAL</animation>
+     <npcId>308</npcId>
+     <next>313</next>
+ </dialogue>
+ 	 <dialogue>
+     <id>315</id>
+     <type>NPC_STATEMENT</type>
+     <lines>1</lines>
+     <line1>Hello there. Is there anything you need?</line1>
+     <animation>NORMAL</animation>
+     <npcId>4657</npcId>
+     <next>316</next>
+ </dialogue>
+  	<dialogue>
+	<id>316</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to be teleported to the Special Donator Zone</line1>
+		<line2>I'd like to view the Donator Shop</line2>
+		<line3>Nothing, thanks</line3>
+		<next>-1</next>
+	</dialogue>
+	  	<dialogue>
+	<id>318</id>
+		<type>NPC_STATEMENT</type>
+		<animation>UNSURE</animation>
+		<lines>3</lines>
+		<line1>Psst!</line1>
+		<line2>I heard that if you use armor on the animator,</line2>
+		<line3>it turns to life and actually starts walking!</line3>
+		<npcId>650</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>319</id>
+		<type>NPC_STATEMENT</type>
+		<animation>NORMAL</animation>
+		<lines>2</lines>
+		<line1>Another adventurer!</line1>
+		<line2>Tell me, have you come to defeat me?</line2>
+		<npcId>8528</npcId>
+		<next>320</next>
+	</dialogue>
+	<dialogue>
+		<id>320</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes, I have!</line1>
+		<line2>Uhm.. No sir.</line2>
+		<npcId>8528</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>321</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<animation>CALM</animation>
+		<line1>Well then. I challenge you to a duel!</line1>
+		<line2>If I manage to slay you, I will keep your items.</line2>
+		<line3>Do you wish to begin?</line3>
+		<npcId>8528</npcId>
+		<next>322</next>
+	</dialogue>
+	<dialogue>
+		<id>322</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>No, not yet.</line1>
+		<line2>Yes, let's go.</line2>
+		<npcId>8528</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>323</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<animation>CALM</animation>
+		<line1>Are you ready to fight?</line1>
+		<npcId>8528</npcId>
+		<next>322</next>
+	</dialogue>
+	<dialogue>
+		<id>324</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<animation>NORMAL</animation>
+		<line1>You fought well.</line1>
+		<line2>You have gained access to view my shop.</line2>
+		<npcId>8528</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>325</id>
+		<type>STATEMENT</type>
+		<lines>1</lines>
+		<line1>You must complete 'Nomad's Requeim' to view this shop.</line1>
+		<npcId>8528</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>326</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Mini Quests</line1>
+		<line2>Minigames</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>327</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Recipe For Disaster</line1>
+		<line2>Nomad's Requeim</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+	</dialogue>
+		<dialogue>
+		<id>329</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Open Zeal Exchange</line1>
+		<line2>Open Nomad's Shop</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>330</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Open: Dungeoneering Guide (Trident Wiki)</line1>
+		<line2>Teleport: Daemonheim</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>331</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<animation>NORMAL</animation>
+		<line1>Hello there!</line1>
+		<npcId>9712</npcId>
+		<next>332</next>
+	</dialogue>
+	<dialogue>
+		<id>332</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>1</lines>
+		<animation>NORMAL</animation>
+		<line1>Hello. What is this place?</line1>
+		<npcId>-1</npcId>
+		<next>333</next>
+	</dialogue>
+	<dialogue>
+		<id>333</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<animation>NORMAL</animation>
+		<line1>This is Daemonheim. You can train Dungeoneering here.</line1>
+		<line2>Dungeoneering allows you to explore dungeons.</line2>
+		<line3>After exploring a dungeon, you are given tokens.</line3>
+		<line4>These tokens can be spent on good rewards!</line4>
+		<npcId>9712</npcId>
+		<next>334</next>
+	</dialogue>
+	<dialogue>
+		<id>334</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<animation>NORMAL</animation>
+		<line1>To start, please talk to Thor.</line1>
+		<line2>If you have any questions, feel free to ask</line2>
+		<line3>other adventurous explorers.</line3>
+		<npcId>9712</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>340</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<animation>NORMAL</animation>
+		<line1>What can I do for you?</line1>
+		<npcId>9713</npcId>
+		<next>341</next>
+	</dialogue>
+	<dialogue>
+		<id>341</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to start Dungeoneering</line1>
+		<line2>I'd like to view your shop</line2>
+		<line3>Nothing, thanks</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>343</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>Floor 1</line1>
+		<line2>Coming soon</line2>
+		<line3>Coming soon</line3>
+		<line4>Coming soon</line4>
+		<line5>None</line5>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>344</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<animation>CALM</animation>
+		<line1>Good luck friend. By the way, I've given you a Gatestone.</line1>
+		<line2>Drop it on the ground and then use</line2>
+		<line3>the portal over there to quickly navigate to it. Oh and</line3>
+		<line4>remember that you can buy items from the Smuggler!</line4>
+		<npcId>9712</npcId>
+		<next>-1</next>
+	</dialogue>
+		<dialogue>
+		<id>346</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Abandon dungeon</line1>
+		<line2>Don't abandon dungeon</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>347</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Open: Construction Guide (Trident Wiki)</line1>
+		<line2>Teleport: Yanille House Portal</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>348</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<animation>NORMAL</animation>
+		<npcId>4247</npcId>
+		<line1>What can I do for you?</line1>
+		<next>349</next>
+	</dialogue>
+	<dialogue>
+		<id>349</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>I'd like to buy a Construction Skillcape</line1>
+		<line2>I'd like to buy a house</line2>
+		<line3>I'd like to view your shop</line3>
+		<line4>Never mind</line4>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>350</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Sorry pal. Come back when you have level 99 in</line1>
+		<line2>Construction and I might sell you one.</line2>
+		<animation>NORMAL</animation>
+		<npcId>4247</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>351</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Sorry pal. You already have a house.</line1>
+		<line2>You can only own one house at the moment.</line2>
+		<animation>NORMAL</animation>
+		<npcId>4247</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>352</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>It will cost you 50,000 coins.</line1>
+		<line2>Are you sure?</line2>
+		<animation>NORMAL</animation>
+		<npcId>4247</npcId>
+		<next>353</next>
+	</dialogue>
+	<dialogue>
+		<id>353</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes, buy a house for 50,000 coins</line1>
+		<line2>No thanks, maybe later</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>354</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Thank you mate. You now have a house.</line1>
+		<line2>You can build objects in it and you can also</line2>
+		<line3>invite your friends in!</line3>
+		<line4>You can find most building material in my shop.</line4>
+		<animation>CALM</animation>
+		<npcId>4247</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>355</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Sorry pal. You don't seem to have the money on you.</line1>
+		<animation>CALM</animation>
+		<npcId>4247</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>356</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Oh no.. All is lost!</line1>
+		<line2>You failed to seal all the portals in time.</line2>
+		<line3>Better luck next time!</line3>
+		<animation>SAD</animation>
+		<npcId>3782</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>357</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Well done!</line1>
+		<line2>You successfully closed the rifts!</line2>
+		<line3>You have received 5 Commendations and some coins.</line3>
+		<animation>CALM</animation>
+		<npcId>3782</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>358</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Your task is to defend the Void knight while</line1>
+		<line2>closing all the portals. Good luck adventurer.</line2>
+		<animation>CALM</animation>
+		<npcId>3782</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>359</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Well done JalYt-Ket.</line1>
+		<line2>The pit is now under your hand.</line2>
+		<line3>You've been given some Tokkul for your hard work.</line3>
+		<animation>CALM</animation>
+		<npcId>2617</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>360</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Well done JalYt-Ket.</line1>
+		<line2>The pit is now under your hand. However,</line2>
+		<line3>there must be at least 5 players here for a reward.</line3>
+		<animation>CALM</animation>
+		<npcId>2617</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>365</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Hello adventurer! Welcome to Edgeville!</line1>
+		<animation>NORMAL</animation>
+		<npcId>945</npcId>
+		<next>366</next>
+	</dialogue>
+	<dialogue>
+		<id>366</id>
+		<type>PLAYER_STATEMENT</type>
+		<animation>NORMAL</animation>
+		<lines>1</lines>
+		<line1>Hello, thanks.</line1>
+		<next>367</next>
+	</dialogue>
+	<dialogue>
+		<id>367</id>
+		<type>OPTION</type>
+		<lines>5</lines>
+		<line1>I'd like to view the Loyalty Shop</line1>
+		<line2>I'd like to view the Donator Shop</line2>
+		<line3>I'd like to visit the Donator Zone</line3>
+		<line4>I'd like to report a bug or an issue</line4>
+		<line5>I didn't need anything</line5>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>368</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I have opened up a website for you.</line1>
+		<line2>If it doesn't open, please, manually visit:</line2>
+		<line3>Www.Trident.org/shop</line3>
+		<animation>NORMAL</animation>
+		<npcId>945</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>369</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Hello JalYt.</line1>
+		<line2>Would you like to view my shop?</line2>
+		<line3>I sell items for Tokkul.</line3>
+		<animation>NORMAL</animation>
+		<npcId>2622</npcId>
+		<next>370</next>
+	</dialogue>
+	<dialogue>
+		<id>370</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes</line1>
+		<line2>Maybe later</line2>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>371</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling food! Bread and Cake!</line1>
+		<animation>NORMAL</animation>
+		<npcId>571</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>372</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling gems! Outrageous gems!</line1>
+		<animation>NORMAL</animation>
+		<npcId>570</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>373</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling silk!</line1>
+		<animation>NORMAL</animation>
+		<npcId>530</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>374</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Check out my store for items made by pure silver.</line1>
+		<animation>NORMAL</animation>
+		<npcId>569</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>375</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling spice!</line1>
+		<animation>NORMAL</animation>
+		<npcId>572</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>376</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Selling fur! Selling fur!</line1>
+		<line2>Wolf fur, bear fur and more!</line2>
+		<animation>NORMAL</animation>
+		<npcId>547</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>377</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling delicious wine!</line1>
+		<animation>NORMAL</animation>
+		<npcId>3671</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>378</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling toys!</line1>
+		<animation>NORMAL</animation>
+		<npcId>970</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>379</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling seeds!</line1>
+		<animation>NORMAL</animation>
+		<npcId>2233</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>380</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Selling raw fish!</line1>
+		<animation>NORMAL</animation>
+		<npcId>1315</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>381</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Have you remembered to vote for us today?</line1>
+		<line2>The reward for voting is 250.000 (250k) coins,</line2>
+		<line3>500 Loyalty points and a pair of Brawling gloves!</line3>
+		<animation>NORMAL</animation>
+		<npcId>945</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>382</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Sorry pal, only Donators can go there. You</line1>
+		<line2>can become a Donator for only $10. You can</line2>
+		<line3>also buy Donator Points which you can spend on items.</line3>
+		<line4>Simply type ::donate.</line4>
+		<animation>NORMAL</animation>
+		<npcId>945</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>383</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Welcome to the Donator Zone!</line1>
+		<line2>This area contains some features that</line2>
+		<line3>normal players cannot access.</line3>
+		<line4>Thank you for supporting Trident.</line4>
+		<animation>NORMAL</animation>
+		<npcId>945</npcId>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>384</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>There you go!</line1>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>961</npcId>
+	</dialogue>
+	<dialogue>
+		<id>385</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Adventurer! Please note that if you</line1>
+		<line2>die here, no gravestone will be created</line2>
+		<line3>and all of your items will be lost forever!</line3>
+		<line4>This area has been cursed by Zaros.</line4>
+		<animation>SCARED</animation>
+		<next>-1</next>
+		<npcId>961</npcId>
+	</dialogue>
+	<dialogue>
+		<id>386</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Hello there. What can I do for you?</line1>
+		<animation>NORMAL</animation>
+		<next>387</next>
+		<npcId>2270</npcId>
+	</dialogue>
+	<dialogue>
+		<id>387</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to know more about that chest over there</line1>
+		<line2>I'd like to buy a Thieving Skillcape</line2>
+		<line3>Nothing, thanks</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>388</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>That my friend, is a expensive Mahogany</line1>
+		<line2>chest. Every 24 hours, I refill it with</line2>
+		<line3>stolen goods for young thieves to loot.</line3>
+		<animation>NORMAL</animation>
+		<next>387</next>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2270</npcId>
+	</dialogue>
+	<dialogue>
+		<id>389</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Where would you like to go?</line1>
+		<animation>NORMAL</animation>
+		<next>390</next>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>945</npcId>
+	</dialogue>
+	<dialogue>
+		<id>390</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to visit another city!</line1>
+		<line2>I'd like to visit the Free for All arena!</line2>
+		<line3>I'd like to stay here.</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>391</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Armour Shop I</line1>
+		<line2>Armour Shop II</line2>
+		<line3>Armour Shop III</line3>
+		<line4>Cancel</line4>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>392</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Welcome.</line1>
+		<animation>NORMAL</animation>
+		<next>393</next>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2192</npcId>
+	</dialogue>
+	<dialogue>
+		<id>393</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>What is this place?</line1>
+		<line2>What are Conquest points?</line2>
+		<line3>Can I view the Conquest shop?</line3>
+		<line4>Thanks!</line4>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>394</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>This is the Conquest Arena! People come here</line1>
+		<line2>to battle warriors, archers and even mages</line2>
+		<line3>for Conquest points. You can spend them in my shop.</line3>
+		<line4>Simply climb down the ladder to begin.</line4>
+		<animation>NORMAL</animation>
+		<next>393</next>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2192</npcId>
+	</dialogue>
+	<dialogue>
+		<id>395</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>It is a currency which can be used</line1>
+		<line2>in the Conquest shop only. You can gain</line2>
+		<line3>these points by killing monsters in the</line3>
+		<line4>Conquest arena.</line4>
+		<animation>NORMAL</animation>
+		<next>393</next>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2192</npcId>
+	</dialogue>
+	<dialogue>
+		<id>396</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Good luck adventurer.</line1>
+		<line2>Use that ladder if you wish to leave.</line2>
+		<line3>Oh and, if you die, I'll let you keep your stuff.</line3>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>2192</npcId>
+	</dialogue>
+	<dialogue>
+		<id>400</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Hello there. </line1>
+		<line2>Welcome to the docks!</line2>
+		<animation>NORMAL</animation>
+		<next>401</next>
+		<npcId>463</npcId>
+	</dialogue>
+	<dialogue>
+		<id>401</id>
+		<type>PLAYER_STATEMENT</type>
+		<animation>NORMAL</animation>
+		<lines>1</lines>
+		<line1>Hello, thanks.</line1>
+		<next>402</next>
+	</dialogue>
+	<dialogue>
+		<id>402</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>What is this place?</line1>
+		<line2>Can I view your shop?</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>403</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Players come here to play the Fishing Trawler</line1>
+		<line2>minigame. The task is to keep the boat from sinking</line2>
+		<line3>while keeping the nets alive so they can catch fish.</line3>
+		<line4>You can participate by boarding the ship over there.</line4>
+		<animation>NORMAL</animation>
+		<next>402</next>
+		<npcId>463</npcId>
+	</dialogue>
+	<dialogue>
+		<id>404</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>I'd like to teleport to the Donator Zone</line1>
+		<line2>I'd like to view the Donator shop</line2>
+		<line3>I'd like to become a Donator</line3>
+		<line4>Cancel</line4>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>405</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Fish Raw manta ray (Level 83 Fishing Required)</line1>
+		<line2>Fish Raw rocktail (Level 91 Fishing Required)</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>406</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Hello.</line1>
+		<line2>My name is Max.</line2>
+		<line3>I'm kinda busy. Do you need something?</line3>
+		<animation>CALM</animation>
+		<next>407</next>
+		<npcId>517</npcId>
+	</dialogue>
+	<dialogue>
+		<id>407</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Hello, uhm..</line1>
+		<next>408</next>
+		<npcId>-1</npcId>
+		<animation>LOOK_DOWN</animation>
+	</dialogue>
+	<dialogue>
+		<id>408</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Can I buy a cape like yours?</line1>
+		<line2>What's your total level?</line2>
+		<line3>Nothing, sorry.</line3>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>409</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>9001..</line1>
+		<animation>GOOFY_LAUGH</animation>
+		<next>408</next>
+		<npcId>517</npcId>
+	</dialogue>
+	<dialogue>
+		<id>410</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>No.</line1>
+		<line2>You are not experienced enough.</line2>
+		<line3>Come back when you have mastered</line3>
+		<line4>every skill.</line4>
+		<animation>CALM</animation>
+		<next>408</next>
+		<npcId>517</npcId>
+	</dialogue>
+	<dialogue>
+		<id>411</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>Okay..</line1>
+		<animation>CALM</animation>
+		<next>-1</next>
+		<npcId>517</npcId>
+	</dialogue>
+	<dialogue>
+		<id>412</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Godwars Dungeon</line1>
+		<line2>Ancient Cavern</line2>
+		<line3>Previous Page</line3>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>413</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Donator Shop 1</line1>
+		<line2>Donator Shop 2</line2>
+		<line3>Cancel</line3>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>414</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Soul wars</line1>
+		<line2>First Page</line2>
+		<line3>Second Page</line3>
+		<line4>Cancel</line4>
+		<next>-1</next>
+		<npcId>-1</npcId></dialogue>
+	<dialogue>
+		<id>415</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Er.. Hello.</line1>
+		<line2>What is an adventurer like you doing here?</line2>
+		<animation>LOOKING_UP</animation>
+		<next>416</next>
+		<npcId>3299</npcId>
+	</dialogue>
+		<dialogue>
+		<id>416</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Hey.</line1>
+		<line2>Uhm...</line2>
+		<animation>THINKING_STILL</animation>
+		<next>417</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>417</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>I'd like to buy some items for Farming..</line1>
+		<line2>I'd like to buy your cape..!</line2>
+		<line3>Nothing, I'm lost..</line3>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>418</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>You aren't quite skilled enough.</line1>
+		<line2>Get some more experience and ask me again.</line2>
+		<animation>LOOKING_UP</animation>
+		<next>417</next>
+		<npcId>3299</npcId>
+	</dialogue>
+	<dialogue>
+		<next>-1</next>
+		<lines>2</lines>
+		<type>OPTION</type>
+		<line1>Open: Farming Guide (Trident Wiki)</line1>
+		<line2>Teleport: Farming patch (Southern Falador)</line2>
+		<id>419</id>
+	</dialogue>
+	<dialogue>
+		<id>420</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Lottery! Lottery over here!</line1>
+		<line2>Come get rich!!! Lotteryyy!!</line2>
+		<animation>NORMAL</animation>
+		<next>421</next>
+		<npcId>3001</npcId>
+	</dialogue>
+	<dialogue>
+		<id>421</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>1</lines>
+		<line1>...</line1>
+		<animation>THINKING_STILL</animation>
+		<next>422</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<next>-1</next>
+		<lines>5</lines>
+		<type>OPTION</type>
+		<line1>What is the lottery?</line1>
+		<line2>I'd like to enter the lottery!</line2>
+		<line3>How much is the pot at right now?</line3>
+		<line4>Who won the lottery last week?</line4>
+		<line5>Nothing, thanks.</line5>
+		<id>422</id>
+	</dialogue>
+	<dialogue>
+		<id>423</id>
+		<type>PLAYER_STATEMENT</type>
+		<lines>1</lines>
+		<line1>What is the lottery?.</line1>
+		<animation>THINKING_STILL</animation>
+		<next>423</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>424</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>It costs 300.000 coins to enter the lottery.</line1>
+		<line2>Every Friday, one of the contesters will win the</line2>
+		<line3>entire pot of gold and another lottery will begin. If</line3>
+		<line4>you have any questions, feel free to ask other contesters.</line4>
+		<animation>NORMAL</animation>
+		<next>422</next>
+		<npcId>3001</npcId>
+	</dialogue>
+	<dialogue>
+		<id>425</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You have already entered this week's</line1>
+		<line2>lottery.</line2>
+		<line3>The winner is announced every Friday.</line3>
+		<animation>NORMAL</animation>
+		<next>422</next>
+		<npcId>3001</npcId>
+	</dialogue>
+	<dialogue>
+		<id>426</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>You have entered this week's</line1>
+		<line2>lottery.</line2>
+		<line3>The winner is announced every Friday.</line3>
+		<line4>Good luck!</line4>
+		<animation>NORMAL</animation>
+		<next>422</next>
+		<npcId>3001</npcId>
+	</dialogue>
+	<dialogue>
+		<id>427</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>You need to be in a Dungeoneering party to begin.</line1>
+		<line2>Either join one or start your own by using a</line2>
+		<line3>Ring of Kinship which can be found in my shop.</line3>
+		<animation>NORMAL</animation>
+		<next>341</next>
+		<npcId>9713</npcId>
+	</dialogue>
+	<dialogue>
+		<id>428</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Your party hasn't selected which floor to explore.</line1>
+		<line2>Let me know once you are settled.</line2>
+		<animation>GOOFY_LAUGH</animation>
+		<next>341</next>
+		<npcId>9713</npcId>
+	</dialogue>
+	<dialogue>
+		<id>430</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Oh wow! You don't have a valid email adress set.</line1>
+		<line2>Please set one so you can recover your password!</line2>
+		<line3>You can set an email using the Shortcuts interface.</line3>
+		<animation>UNSURE</animation>
+		<next>-1</next>
+		<npcId>945</npcId>
+	</dialogue>
+	<dialogue>
+		<id>431</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Welcome! Feel free to check out my shop! I sell</line1>
+		<line2>exclusive items which can be found nowhere else</line2>
+		<line3>on Trident! Simply trade me to get started.</line3>
+		<animation>NORMAL</animation>
+		<next>435</next>
+		<npcId>534</npcId>
+	</dialogue>
+	<dialogue>
+		<id>432</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>You have not chosen a game difficulty yet.</line1>
+		<line2>Which difficulty do you wish to play with?</line2>
+		<animation>NORMAL</animation>
+		<next>433</next>
+		<npcId>534</npcId>
+	</dialogue>
+	<dialogue>
+		<next>-1</next>
+		<lines>5</lines>
+		<type>OPTION</type>
+		<line1>Easy</line1>
+		<line2>Normal</line2>
+		<line3>Hard</line3>
+		<line4>Ironman (restricted features)</line4>
+		<line5>Hardcore Ironman (many restricted features)</line5>
+		<id>433</id>
+	</dialogue>
+	<dialogue>
+		<id>434</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>I've attempted to open up www.Trident-ps.com/difficulties</line1>
+		<line2>for you. If it does not open, please visit it manually</line2>
+		<line3>by typing the URL into your browser's address bar.</line3>
+		<animation>NORMAL</animation>
+		<next>433</next>
+		<npcId>534</npcId>
+	</dialogue>
+	<dialogue>
+		<id>435</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>I can also change your game difficulty.</line1>
+		<line2>So, what do you need?</line2>
+		<animation>NORMAL</animation>
+		<next>436</next>
+		<npcId>534</npcId>
+	</dialogue>
+	<dialogue>
+	<next>-1</next>
+		<lines>3</lines>
+		<type>OPTION</type>
+		<line1>I'd like to trade!</line1>
+		<line2>Could you reset my game difficulty?</line2>
+		<line3>Nothing, thanks!</line3>
+		<id>436</id>
+	</dialogue>
+	<dialogue>
+		<id>437</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>But your stats will be reset and your account</line1>
+		<line2>will be removed from the highscores. Would</line2>
+		<line3>you like me to change your difficulty anyway?</line3>
+		<animation>NORMAL</animation>
+		<next>438</next>
+		<npcId>534</npcId>
+	</dialogue>
+	<dialogue>
+		<next>-1</next>
+		<lines>2</lines>
+		<type>OPTION</type>
+		<line1>Yes please.</line1>
+		<line2>No thanks.</line2>
+		<id>438</id>
+	</dialogue>
+	<dialogue>
+		<id>439</id>
+		<type>OPTION</type>
+		<lines>3</lines>
+		<line1>Experience: Antique Lamp</line1>
+		<line2>Summoning: Charms</line2>
+		<line3>Nothing, thanks.</line3>
+		<next>-1</next>
+	</dialogue>
+	<dialogue>
+		<id>440</id>
+		<type>NPC_STATEMENT</type>
+		<lines>1</lines>
+		<line1>What do you need?</line1>
+		<animation>NORMAL</animation>
+		<next>439</next>
+		<npcId>945</npcId>
+	</dialogue>
+	<dialogue>
+	<id>441</id>
+		<type>OPTION</type>
+		<lines>4</lines>
+		<line1>Charm: Gold</line1>
+		<line2>Charm: Green</line2>
+		<line3>Charm: Crimson</line3>
+		<line4>Charm: Blue</line4>
+		<next>-1</next>
+		<npcId>945</npcId>
+	</dialogue>
+		<dialogue>
+		<id>442</id>
+		<type>NPC_STATEMENT</type>
+		<lines>2</lines>
+		<line1>Hi. If you've got any Energy fragments,</line1>
+		<line2>I'll be more than happy to trade something for them.</line2>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>8032</npcId>
+	</dialogue>
+	<dialogue>
+		<id>443</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Are you sure that you wish to empty your</line1>
+		<line2>inventory? If yes, all your items inside of</line2>
+		<line3>it will disappear forever, and you will not</line3>
+		<line4>be able to get them back once deleted.</line4>
+		<animation>UNSURE</animation>
+		<next>444</next>
+		<npcId>945</npcId>
+	</dialogue>
+	<dialogue>
+		<id>444</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes, clear my inventory!</line1>
+		<line2>No thanks!</line2>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	<dialogue>
+		<id>445</id>
+		<type>NPC_STATEMENT</type>
+		<lines>4</lines>
+		<line1>Welcome to my colony, adventurer!</line1>
+		<line2>Here, you will find the most delicious fish.</line2>
+		<line3>If you wish to fish bigger fish, you can do so</line3>
+		<line4>in Catherby, at the fishing aquariums.</line4>
+		<animation>NORMAL</animation>
+		<next>-1</next>
+		<npcId>308</npcId>
+	</dialogue>
+		<dialogue>
+		<id>446</id>
+		<type>NPC_STATEMENT</type>
+		<lines>3</lines>
+		<line1>Selecting this ironman difficulty</line1>
+		<line2>will reset all of your items and levels.</line2>
+		<line3>Are you sure that you wish to continue?</line3>
+		<animation>NORMAL</animation>
+		<next>447</next>
+		<npcId>534</npcId>
+	</dialogue>
+	<dialogue>
+		<id>447</id>
+		<type>OPTION</type>
+		<lines>2</lines>
+		<line1>Yes.</line1>
+		<line2>No thanks!</line2>
+		<next>-1</next>
+		<npcId>-1</npcId>
+	</dialogue>
+	</list>

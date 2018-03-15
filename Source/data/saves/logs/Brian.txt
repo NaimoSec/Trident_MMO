@@ -1,0 +1,159 @@
+[1/4/17 11:38PM]	Player logged in.	
+[1/4/17 11:38PM]	Player logged out.	
+[1/4/17 11:38PM]	Player logged in.	
+[1/4/17 11:39PM]	Player logged out.	
+[1/6/17 02:33AM]	Player logged in.	
+[1/6/17 02:36AM]	Player logged out.	
+[1/6/17 02:36AM]	Player logged in.	
+[1/6/17 02:36AM]	Used command: np 949	
+[1/6/17 02:43AM]	Used command: yell no	
+[1/6/17 03:00AM]	Player logged out.	
+[1/6/17 03:04AM]	Player logged in.	
+[1/6/17 03:06AM]	Player logged out.	
+[1/6/17 03:06AM]	Player logged in.	
+[1/6/17 03:14AM]	Player logged out.	
+[1/6/17 03:33AM]	Player logged in.	
+[1/6/17 03:34AM]	Player logged out.	
+[1/6/17 09:24AM]	Player logged in.	
+[1/6/17 09:24AM]	Player logged out.	
+[1/6/17 09:32AM]	Player logged in.	
+[1/6/17 09:33AM]	Player logged in.	
+[1/6/17 09:34AM]	Used command: hd	
+[1/6/17 04:29PM]	Player logged in.	
+[1/6/17 04:29PM]	Player logged out.	
+[1/6/17 04:30PM]	Player logged in.	
+[1/6/17 04:30PM]	Player logged out.	
+[1/6/17 04:31PM]	Player logged in.	
+[1/6/17 04:32PM]	Player logged in.	
+[1/6/17 04:32PM]	Player logged out.	
+[1/6/17 04:33PM]	Player logged in.	
+[1/6/17 04:34PM]	Player logged in.	
+[1/6/17 04:36PM]	Player logged out.	
+[1/6/17 04:36PM]	Player logged in.	
+[1/6/17 04:36PM]	Player logged out.	
+[1/6/17 04:36PM]	Player logged in.	
+[1/6/17 04:37PM]	Player logged out.	
+[1/6/17 04:49PM]	Player logged in.	
+[1/6/17 04:50PM]	Player logged out.	
+[1/6/17 04:50PM]	Player logged in.	
+[1/6/17 04:50PM]	Player logged out.	
+[1/6/17 04:50PM]	Player logged in.	
+[1/6/17 04:54PM]	Player logged out.	
+[1/6/17 04:55PM]	Player logged in.	
+[1/6/17 04:57PM]	Player logged out.	
+[1/6/17 04:57PM]	Player logged in.	
+[1/6/17 04:59PM]	Player logged in.	
+[1/6/17 04:59PM]	Player logged out.	
+[1/6/17 04:59PM]	Player logged in.	
+[1/6/17 05:00PM]	Player logged out.	
+[1/6/17 05:00PM]	Player logged in.	
+[1/6/17 05:00PM]	Player logged out.	
+[1/6/17 05:00PM]	Player logged in.	
+[1/6/17 05:00PM]	Player logged out.	
+[1/6/17 05:04PM]	Player logged in.	
+[1/6/17 05:08PM]	Player logged out.	
+[1/6/17 05:08PM]	Player logged in.	
+[1/6/17 05:08PM]	Player logged out.	
+[1/6/17 05:09PM]	Player logged in.	
+[1/6/17 05:12PM]	Player logged out.	
+[1/6/17 05:12PM]	Player logged in.	
+[1/6/17 05:12PM]	Player logged out.	
+[1/6/17 05:13PM]	Player logged in.	
+[1/6/17 05:14PM]	Player logged out.	
+[1/6/17 05:15PM]	Player logged in.	
+[1/6/17 05:15PM]	Player logged out.	
+[1/6/17 05:16PM]	Player logged in.	
+[1/6/17 05:17PM]	Player logged out.	
+[1/6/17 05:17PM]	Player logged in.	
+[1/6/17 05:17PM]	Player logged out.	
+[1/6/17 05:19PM]	Player logged in.	
+[1/6/17 05:20PM]	Player logged out.	
+[1/6/17 05:22PM]	Player logged in.	
+[1/6/17 05:22PM]	Player logged out.	
+[1/6/17 05:24PM]	Player logged in.	
+[1/6/17 05:24PM]	Player logged out.	
+[1/6/17 05:26PM]	Player logged in.	
+[1/6/17 05:30PM]	Player logged out.	
+[1/6/17 05:30PM]	Player logged in.	
+[1/6/17 05:33PM]	Player logged out.	
+[1/6/17 05:33PM]	Player logged in.	
+[1/6/17 05:35PM]	Player logged out.	
+[1/6/17 05:35PM]	Player logged in.	
+[1/6/17 05:35PM]	Player logged out.	
+[1/6/17 05:37PM]	Player logged in.	
+[1/6/17 05:40PM]	Player logged out.	
+[1/6/17 05:41PM]	Player logged in.	
+[1/6/17 05:45PM]	Player logged out.	
+[1/6/17 05:56PM]	Player logged in.	
+[1/6/17 05:58PM]	Player logged in.	
+[1/6/17 06:01PM]	Used command: data	
+[1/6/17 06:01PM]	Used command: dataon	
+[1/6/17 06:02PM]	Player logged out.	
+[1/6/17 06:02PM]	Player logged in.	
+[1/6/17 06:04PM]	Player logged in.	
+[1/6/17 06:05PM]	Player logged out.	
+[1/6/17 06:07PM]	Player logged in.	
+[1/6/17 06:07PM]	Player logged out.	
+[1/6/17 06:08PM]	Player logged in.	
+[1/6/17 06:08PM]	Player logged out.	
+[1/7/17 01:11AM]	Player logged in.	
+[1/7/17 01:12AM]	Player logged out.	
+[1/7/17 01:21AM]	Player logged in.	
+[1/7/17 01:22AM]	Used command: tele 3089 3503 0	
+[1/7/17 01:22AM]	Used command: teleto bradley	
+[1/7/17 01:22AM]	Player logged out.	
+[1/7/17 01:22AM]	Player logged in.	
+[1/7/17 01:28AM]	Used command: master	
+[1/7/17 01:29AM]	Used command: find pernix	
+[1/7/17 01:29AM]	Used command: :item 20147 1	
+[1/7/17 01:29AM]	Used command: ::item 20151 1	
+[1/7/17 01:29AM]	Used command: ::item 20155	
+[1/7/17 01:29AM]	Used command: find rage	
+[1/7/17 01:30AM]	Used command: ::find stead	
+[1/7/17 01:30AM]	Used command: find perni	
+[1/7/17 01:30AM]	Used command: ::item 20147	
+[1/7/17 01:30AM]	Used command: item 20147 1	
+[1/7/17 01:30AM]	Used command: item 20151 1	
+[1/7/17 01:30AM]	Used command: item 20155 1	
+[1/7/17 01:30AM]	Used command: dung	
+[1/7/17 01:31AM]	Used command: item 19707 1	
+[1/7/17 01:31AM]	Used command: item 19709 1	
+[1/7/17 01:32AM]	Used command: item 20000 1	
+[1/7/17 01:32AM]	Used command: item 20002 1	
+[1/7/17 02:08AM]	Player logged out.	
+[1/7/17 02:08AM]	Player logged in.	
+[1/7/17 02:18AM]	Player logged out.	
+[1/7/17 02:18AM]	Player logged in.	
+[1/7/17 02:22AM]	Player logged out.	
+[1/7/17 02:22AM]	Player logged in.	
+[1/7/17 02:22AM]	Used command: bank	
+[1/7/17 02:49AM]	Player logged out.	
+[1/7/17 02:49AM]	Player logged in.	
+[1/7/17 02:52AM]	Used command: search whip	
+[1/7/17 02:52AM]	Used command: find whip	
+[1/7/17 02:52AM]	Used command: ::item 4151 	
+[1/7/17 02:52AM]	Used command: item 4151	
+[1/7/17 02:57AM]	Used command: item 4151	
+[1/7/17 02:59AM]	Player logged out.	
+[1/7/17 05:49PM]	Player logged in.	
+[1/7/17 06:06PM]	Player logged out.	
+[1/7/17 06:07PM]	Player logged in.	
+[1/7/17 06:08PM]	Player logged out.	
+[1/7/17 06:08PM]	Player logged in.	
+[1/7/17 06:21PM]	Player logged out.	
+[1/7/17 06:26PM]	Player logged in.	
+[1/7/17 06:27PM]	Player logged out.	
+[1/7/17 06:28PM]	Player logged in.	
+[1/7/17 06:29PM]	Player logged out.	
+[1/7/17 06:30PM]	Player logged in.	
+[1/7/17 06:31PM]	Player logged out.	
+[1/7/17 08:46PM]	Player logged in.	
+[1/7/17 08:47PM]	Player logged out.	
+[1/7/17 09:29PM]	Player logged in.	
+[1/7/17 09:29PM]	Player logged out.	
+[1/7/17 09:30PM]	Player logged in.	
+[1/7/17 09:33PM]	Player logged out.	
+[1/7/17 09:33PM]	Player logged in.	
+[1/7/17 09:33PM]	Player logged out.	
+[1/7/17 09:34PM]	Player logged in.	
+[1/7/17 09:50PM]	Player logged out.	

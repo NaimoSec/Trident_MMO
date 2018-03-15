@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-compress-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/GTLVote.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mysql.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-3.5.8.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-nop.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xpp3-1.1.4c.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xstream-1.4.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
